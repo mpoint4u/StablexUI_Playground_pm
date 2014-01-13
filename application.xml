@@ -15,8 +15,11 @@
 	<!-- classpath, haxe libs -->
 	<source path="src" />
 
-<!-- 	<source path="C:/HaxeToolkit/StablexUI-master/src" /> -->
-	<source path="/Users/marcus/Downloads/StablexUI-master/src" />
+	<source path="C:/HaxeToolkit/StablexUI-master/src" />
+	<!--<source path="/Users/marcus/Downloads/StablexUI-master/src" />-->
+	<!--    this path should work for Win7Ulti, Mac (& Linux, with adoptions), 
+			as far as the users home-folder does not differ...
+	-->
 
 	<haxelib name="openfl" />
 	<haxelib name="actuate" />

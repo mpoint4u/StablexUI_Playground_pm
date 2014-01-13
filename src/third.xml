@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<VBox  name="'component_holder'" >
+
+    <Box name="'holder'">
+
+    </Box>
+
+    <Text defaults="'Default,Property'" text="'Component'"/>
+
+
+</VBox>

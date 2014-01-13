@@ -59,6 +59,7 @@ class Main extends Sprite
 		
 		gui_container = new Draggable();
 		addChild(gui_container);
+		//trace("added gui_container to stage");
 		
 		tf = new TextField();
 		
@@ -101,9 +102,10 @@ class Main extends Sprite
 		tf.defaultTextFormat = text_format;
 		
 		tf.border = true;
-		tf.borderColor = 0x515151;
+		tf.borderColor = 0x0080FF;
 		tf.background = true;
-		tf.backgroundColor = 0xF0F0F0;
+		tf.backgroundColor = 0x7AF5D3;
+		//tf.height = 600;
 		tf.type = TextFieldType.INPUT;
 		tf.multiline = true;
 		tf.wordWrap = true;
@@ -117,9 +119,15 @@ class Main extends Sprite
 		tf.selectable = true;
 		tf.addEventListener(Event.CHANGE, onChange);
 		addChild(tf);
+		//trace("added tf to stage");
 		
 		debug_tf = new TextField();
+		debug_tf.border = true;
+		debug_tf.borderColor = 0x0080FF;
+		debug_tf.background = true;
+		debug_tf.backgroundColor = 0xE8B888;		
 		addChild(debug_tf);
+		//trace("added debug_tf to stage");
 		
 		stage.addEventListener(Event.RESIZE, onResize);
 		

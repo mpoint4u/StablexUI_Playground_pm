@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<VBox  name="'component_holder'" >
+<Widget id="'root'"
+	skin:Paint-color="0xC7EC95"
+	widthPt="90" heightPt="90"
+	leftPt="5"
+	topPt="5"
+	>
+    
+    <Text id="'myWidget'"
+        skin:Paint-border="1"
+		
+		left="100"
+		top="100"
 
-    <Box name="'holder'">
-
-    </Box>
-
-    <Text defaults="'Default,Property'" text="'Component'"/>
-
-
-</VBox>
+        text="'this is a text widget!'"
+        />
+		
+		
+		
+</Widget>

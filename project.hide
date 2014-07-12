@@ -1,0 +1,28 @@
+{
+     "type" : 1
+    ,"target" : null
+    ,"name" : "/StablexUI_Playground_pm"
+    ,"main" : null
+    ,"projectPackage" : null
+    ,"company" : null
+    ,"license" : null
+    ,"url" : null
+    ,"targetData" : [
+
+    ]
+    ,"files" : [
+         {
+             "path" : "src/Main.hx"
+        }
+    ]
+    ,"activeFile" : "application.xml"
+    ,"openFLTarget" : "flash"
+    ,"openFLBuildMode" : "Debug"
+    ,"runActionType" : 2
+    ,"runActionText" : "haxelib run lime run \"%path%\" flash"
+    ,"buildActionCommand" : "haxelib run lime build \"%path%\" flash -debug -Dfdb --connect 5000"
+    ,"hiddenItems" : [
+
+    ]
+    ,"showHiddenItems" : false
+}
